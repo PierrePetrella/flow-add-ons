@@ -3,7 +3,7 @@
     "meta": {
 
         "label": "Drop empty columns",
-        "description": "This recipe will drop all empty columns (with no all empty values)",
+        "description": "This recipe will drop all empty columns (with all empty values)",
         // icon: must be one of the FontAwesome 3.2.1 icons, complete list here at https://fontawesome.com/v3.2.1/icons/
         "icon": "icon-remove"
     },
