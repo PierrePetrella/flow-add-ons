@@ -13,7 +13,7 @@ input_dataset_name = get_input_names_for_role('input_dataset')[0]
 input_dataset = dataiku.Dataset(input_dataset_name)
 
 # For outputs, the process is the same:
-output_dataset_name = get_output_names_for_role('main_output')[0]
+output_dataset_name = get_output_names_for_role('output_dataset')[0]
 output_dataset = dataiku.Dataset(output_dataset_name)
 
 #my_variable = get_recipe_config()['parameter_name']
