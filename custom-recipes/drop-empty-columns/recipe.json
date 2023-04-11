@@ -1,13 +1,11 @@
 // This file is the descriptor for the Custom code recipe drop-empty-columns
 {
-    // Meta data for display purposes
     "meta": {
-        // label: name of the recipe as displayed, should be short
+
         "label": "Drop empty columns",
-        // description: longer string to help end users understand what this recipe does
         "description": "This recipe will drop all empty columns (with no all empty values)",
         // icon: must be one of the FontAwesome 3.2.1 icons, complete list here at https://fontawesome.com/v3.2.1/icons/
-        "icon": "icon-puzzle-piece"
+        "icon": "icon-remove"
     },
 
     "kind": "PYTHON",
