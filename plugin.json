@@ -6,7 +6,7 @@
         "category": "Flow add-ons",
         "description": "Plugin to enhance normal flow functionalities",
         "author": "Dataiku (Pierre PETRELLA)",
-        "icon": "icon-font-awesome-3.2.1",
+        "icon": "icon-plus",
         "licenseInfo": "Apache Software License",
         "url": "https://www.dataiku.com/product/plugins/flow-add-ons/",
         "tags": [
