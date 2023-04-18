@@ -1,41 +1,16 @@
 /* This file is the descriptor for the Custom jython step add-record-id */
 {
     "meta" : {
-        // label: name of the data prep step as displayed, should be short
         "label": "Add record ID",
 
-        // description: longer string to help end users understand what this data prep step does
         "description": "The processor will add a recordID column",
 
-        // icon: must be one of the FontAwesome 3.2.1 icons, complete list here at https://fontawesome.com/v3.2.1/icons/
         "icon": "icon-list-ol"
     },
 
-    /*
-     * the processor mode, dictating what output is expected:
-     * - CELL : the code outputs a value
-     * - ROW : the code outputs a row
-     * - ROWS : the code outputs an array of rows
-     */
     "mode": "CELL",
 
-    /* params:
-    DSS will generate a formular from this list of requested parameters.
-    Your component code can then access the value provided by users using the "name" field of each parameter.
-
-    Available parameter types include:
-    STRING, INT, DOUBLE, BOOLEAN, DATE, SELECT, TEXTAREA, MAP, PRESET and others.
-
-    For the full list and for more details, see the documentation: https://doc.dataiku.com/dss/latest/plugins/reference/params.html
-    */
     "params": [
-        //{
-        //    "name": "record_id_name",
-        //    "label": "RecordID column name",
-        //    "type": "STRING",
-        //    "description": "Default is RecordID",
-        //    "mandatory": false
-        //},
         {
             "name": "start_index_at_1",
             "label": "Start with 1 (0 by default)",
