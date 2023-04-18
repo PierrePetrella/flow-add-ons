@@ -10,12 +10,9 @@ import re
 resource_folder = get_step_resource()
 plugin_config = get_plugin_config()
 step_config = get_step_config()
-        
-# Get and Check Input Params 
-scenario_name = step_config.get("scenario",None)
 
-loop_type = step_config.get("loop_type", None)
-# the step parameters are passed as a params dict
+
+loop_type = step_config.get["start_index_at_1"]
 
 # Define here a function that returns the result of the step.
 record_id = 0

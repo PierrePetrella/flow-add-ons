@@ -2,9 +2,7 @@
 {
     "meta" : {
         "label": "Add record ID",
-
         "description": "The processor will add a recordID column",
-
         "icon": "icon-list-ol"
     },
 
