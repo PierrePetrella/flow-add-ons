@@ -16,7 +16,7 @@ output_dataset_name = get_output_names_for_role('output_dataset')[0]
 output_dataset = dataiku.Dataset(output_dataset_name)
 
 # Fetch input parameters
-transpose_col = get_recipe_config()['column']
+transpose_col = get_recipe_config()['column_name']
 
 # Transpose dataset
 df = input_dataset.get_dataframe()
