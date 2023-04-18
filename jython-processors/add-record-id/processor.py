@@ -5,6 +5,8 @@
 # the step parameters are passed as a params dict
 
 # Define here a function that returns the result of the step.
+record_id = 0
+
 def process(row):
     # row is a dict of the row on which the step is applied
 
