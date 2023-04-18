@@ -42,8 +42,8 @@
             "mandatory": false
         },
         {
-            "name": "start_at_1",
-            "label": "Start record ID at 1 (will start at 0 by default)",
+            "name": "start_index_at_1",
+            "label": "Start recordID at 1 (will start at 0 by default)",
             "type": "BOOLEAN",
             "defaultValue": false
         }
