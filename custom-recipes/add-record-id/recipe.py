@@ -1,4 +1,3 @@
-
 import dataiku
 import pandas as pd, numpy as np
 
@@ -24,7 +23,10 @@ record_id = get_recipe_config().get('record_id_name', "RecordID")
 
 df = input_dataset.get_dataframe()
 
-df.insert(0,record_id, df.index )
+if start_index_at_1 == True:
+    df.insert(0,record_id, range(1, len(df.index) + 1))
+else:
+    df.insert(0,record_id, range(len(df.index)))
 
 # Write recipe outputs
 added_index = dataiku.Dataset("added_index")
