@@ -23,7 +23,7 @@ record_id = get_recipe_config().get('record_id_name', "RecordID")
 
 df = input_dataset.get_dataframe()
 
-if start_index_at_1 == True:
+if start_index_at_1:
     df.insert(0,record_id, range(1, len(df.index) + 1))
 else:
     df.insert(0,record_id, range(len(df.index)))

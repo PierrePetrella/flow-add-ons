@@ -12,12 +12,13 @@ plugin_config = get_plugin_config()
 step_config = get_step_config()
 
 
-loop_type = step_config.get["start_index_at_1"]
+start_index_at_1 = step_config.get["start_index_at_1"]
 
 # Define here a function that returns the result of the step.
 record_id = 0
 
 def process(row):
     # row is a dict of the row on which the step is applied
-    
+    if start_index_at_1:
+        
     return record_id + 1
