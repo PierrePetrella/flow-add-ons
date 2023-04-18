@@ -1,6 +1,5 @@
 # This file is the actual code for the custom Jython step add-record-id
 
-start_index_at_1 = step_config.get["start_index_at_1"]
 
 # Define here a function that returns the result of the step.
 count = 0
