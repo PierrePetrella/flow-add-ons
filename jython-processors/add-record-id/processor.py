@@ -5,7 +5,7 @@
 count = 0
 def process(row):
     #start_index_at_1 = int(params.get('start_index_at_1'))
-    global record_id
+    global count
     #record_id = count
     #if start_index_at_1:
     #    record_id +=1
