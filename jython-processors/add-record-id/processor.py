@@ -2,13 +2,16 @@
 
 # global- and project-level variables are passed as a dss_variables dict
 ### INITIALISATION 
-step_project_var = "step"
+import os, json
+from dataiku.customstep import *
+from io_utils import *
+import re
+
 resource_folder = get_step_resource()
 plugin_config = get_plugin_config()
 step_config = get_step_config()
         
 # Get and Check Input Params 
-
 scenario_name = step_config.get("scenario",None)
 
 loop_type = step_config.get("loop_type", None)
