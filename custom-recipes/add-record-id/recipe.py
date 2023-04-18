@@ -29,5 +29,4 @@ else:
     df.insert(0,record_id, range(len(df.index)))
 
 # Write recipe outputs
-added_index = dataiku.Dataset("added_index")
-added_index.write_with_schema(df)
+output_dataset.write_with_schema(df)
