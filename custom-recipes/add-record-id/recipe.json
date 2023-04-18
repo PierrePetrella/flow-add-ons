@@ -35,8 +35,8 @@
 
     "params": [
         {
-            "name": "record_id",
-            "label": "RecordID",
+            "name": "record_id_name",
+            "label": "RecordID column name",
             "type": "STRING",
             "description": "Default is RecordID",
             "mandatory": false
