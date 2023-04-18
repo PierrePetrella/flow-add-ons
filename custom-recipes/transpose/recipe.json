@@ -36,8 +36,8 @@
         {
             "name": "column_name",
             "label": "Transpose column",
-            "type": "DATASET_COLUMN",
-            "datasetParamName" :"input_dataset",
+            "type": "COLUMN",
+            "columnRole" :"input_dataset",
             "mandatory": true,
             "description": "Name of column to transpose on"
         }
