@@ -1,7 +1,5 @@
 # This file is the actual code for the custom Jython step add-record-id
-
-# global- and project-level variables are passed as a dss_variables dict
-### INITIALISATION 
+import dataiku
 import os, json
 from dataiku.customstep import *
 from io_utils import *
