@@ -2,9 +2,8 @@
 {
     "meta": {
 
-        "label": "Drop empty columns",
-        "description": "This recipe will drop all empty columns (with all empty values)",
-        // icon: must be one of the FontAwesome 3.2.1 icons, complete list here at https://fontawesome.com/v3.2.1/icons/
+        "label": "Add RecordID",
+        "description": "This recipe add a record ID",
         "icon": "icon-remove"
     },
 
@@ -45,7 +44,8 @@
         {
             "name": "start_at_1",
             "label": "Start record ID at 1 (will start at 0 by default)",
-            "type": "BOOLEAN"
+            "type": "BOOLEAN",
+            "defaultValue": false
         }
     ],
 
