@@ -2,7 +2,7 @@
 {
     "meta": {
 
-        "label": "Transpose Datasets",
+        "label": "Transpose Dataset",
         "description": "This recipe will transpose the dataset",
         "icon": "icon-table"
     },
@@ -14,7 +14,7 @@
         {
             "name": "input_dataset",
             "label": "Input Dataset",
-            "description": "Dataset to remove columns from",
+            "description": "Dataset to transpose",
             "arity": "UNARY",
             "required": true,
             "acceptsDataset": true
@@ -25,7 +25,7 @@
         {
             "name": "output_dataset",
             "label": "Output Dataset",
-            "description": "Dataset to write resulting dataset in",
+            "description": "Dataset transposed",
             "arity": "UNARY",
             "required": true,
             "acceptsDataset": true
@@ -39,7 +39,7 @@
             "type": "COLUMN",
             "columnRole" :"input_dataset",
             "mandatory": true,
-            "description": "Name of column to transpose on"
+            "description": "Name of column to use as new columns after transpose"
         }
 
     ],
